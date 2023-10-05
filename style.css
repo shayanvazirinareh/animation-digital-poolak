@@ -1,0 +1,214 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: rgba(25, 35, 92, 0.945);
+}
+
+.desain-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  top: 15rem;
+  left: 0;
+  background-color: rgba(196, 14, 252, 0.384);
+  width: 15rem;
+  height: 5rem;
+  border-radius: 3rem;
+}
+.desain-div .clock {
+  transition: all 500ms;
+  cursor: pointer;
+}
+.desain-div .clock0 {
+  color: rgb(217, 228, 217);
+}
+.desain-div .clock1 {
+  color: gold;
+}
+.desain-div .clock2 {
+  color: rgba(253, 66, 25, 0.995);
+}
+
+.poolak {
+  background-color: rgba(33, 36, 36, 0.534);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 45%;
+  margin-top: 0.5rem;
+}
+.poolak .poolaki {
+  text-align: center;
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.one {
+  position: absolute;
+  font-size: 4.5rem;
+  right: 1px;
+  color: skyblue;
+  animation: one 6s 10ms linear infinite;
+  display: none;
+}
+
+.one1 {
+  right: 50px;
+  bottom: 20px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: white;
+}
+
+.one2 {
+  right: 20px;
+  bottom: 10px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: green;
+}
+
+.one3 {
+  right: 30px;
+  top: 21px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: blue;
+}
+
+.one4 {
+  right: 80px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: yellow;
+}
+
+.one5 {
+  right: -20px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: goldenrod;
+}
+
+.one6 {
+  right: -30px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: violet;
+}
+
+.one7 {
+  right: -10px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: skyblue;
+}
+
+.one8 {
+  right: -60px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: palevioletred;
+}
+
+.one9 {
+  right: -20px;
+  bottom: -50px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: slateblue;
+}
+
+.one10 {
+  right: 20px;
+  bottom: -50px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: burlywood;
+}
+
+.one11 {
+  right: 20px;
+  bottom: 30px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: firebrick;
+}
+
+.one12 {
+  right: 20px;
+  bottom: 10px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: salmon;
+}
+
+.one13 {
+  right: -20px;
+  bottom: 10px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: aqua;
+}
+
+.one14 {
+  right: -20px;
+  bottom: -15px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: burlywood;
+}
+
+.one15 {
+  right: -20px;
+  bottom: -30px;
+  transform: translate(11px, 20px);
+  transform: skew(60deg, 60deg);
+  color: seagreen;
+}
+
+@keyframes one {
+  10% {
+    transform: translateY(50px) skew(90, 90);
+  }
+  20% {
+    transform: translateY(100px) skew(100, 100);
+  }
+  30% {
+    transform: translateY(150px) skew(150, 150);
+  }
+  40% {
+    transform: translateY(200px) skew(250, 250);
+  }
+  50% {
+    transform: translateY(250px) skew(300, 300);
+  }
+  60% {
+    transform: translateY(300px) skew(400, 400);
+  }
+  70% {
+    transform: translateY(350px) skew(500, 500);
+  }
+  80% {
+    transform: translateY(400px) skew(600, 600);
+  }
+  90% {
+    transform: translateY(450px) skew(800, 800);
+  }
+  100% {
+    transform: translateY(550px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
